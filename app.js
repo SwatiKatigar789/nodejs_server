@@ -100,6 +100,6 @@ app.delete('/api/users/:id', (req, res) => {
     });
 });
 
-app.listen(3001, () => {
+app.listen(4001, () => {
     console.log('listening on port 4001');
 });
