@@ -8,7 +8,7 @@ const pool = mysql.createPool({
     host: 'localhost',
     user: 'mmuser11',
     password: 'MMuser+=123',
-    database: 'Doctor_Appointment'
+    database: 'doctor_Appointment'
 });
 
 app.use(express.json());
@@ -100,6 +100,6 @@ app.delete('/api/users/:id', (req, res) => {
     });
 });
 
-app.listen(4001, () => {
-    console.log('listening on port 4001');
+app.listen(3001, () => {
+    console.log('listening on port 3001');
 });
